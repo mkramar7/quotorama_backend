@@ -1,15 +1,15 @@
 package hr.odysseydigital.quotorama.model;
 
 public class Quote {
-    private long id;
+    private String id;
     private String author;
     private String text;
 
-    public void setId(long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public long getId() {
+    public String getId() {
         return id;
     }
 
